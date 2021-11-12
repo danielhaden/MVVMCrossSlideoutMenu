@@ -146,9 +146,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\MVVMCrossSlideoutMenu.Core\MVVMCrossSlideoutMenu.Core.csproj">
+    <ProjectReference Include="..\MVVMCrossSlideoutMenu.Core\BasicMvxApp.Core.csproj">
       <Project>{9296fbc5-3eea-42a8-b55d-f876e7c5b20e}</Project>
-      <Name>MVVMCrossSlideoutMenu.Core</Name>
+      <Name>BasicMvxApp.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
