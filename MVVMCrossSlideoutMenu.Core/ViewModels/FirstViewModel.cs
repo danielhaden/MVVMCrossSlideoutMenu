@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace MVVMCrossSlideoutMenu.Core.ViewModels
 {
+    /// <summary>
+    /// A view model for FirstView.xaml
+    /// </summary>
     public class FirstViewModel : MvxViewModel
     {
         /// <summary>
@@ -36,13 +39,19 @@ namespace MVVMCrossSlideoutMenu.Core.ViewModels
         /// <summary>
         /// An example command for the view model
         /// </summary>
-        public IMvxCommand ResetTextCommand => new MvxCommand(ResetText);
+        public IMvxCommand MyFirstCommand => new MvxCommand(MyMethod);
 
-        private void ResetText()
+        /// <summary>
+        /// A sample method to be invoked with MyFirstCommand
+        /// </summary>
+        private void MyMethod()
         {
             Text = "Hello MvvmCross";
         }
 
+        /// <summary>
+        /// A string property for binding
+        /// </summary>
         private string _text = "Hello MvvmCross";
         public string Text
         {

@@ -12,11 +12,19 @@ namespace MVVMCrossSlideoutMenu
     /// </summary>
     public class Setup : MvxWpfSetup<Core.App>
     {
+
+        /// <summary>
+        /// CreateLogProvider must be overrided in custom setup class
+        /// </summary>
         protected override ILoggerProvider CreateLogProvider()
         {
             return new SerilogLoggerProvider();
         }
 
+        /// <summary>
+        /// CreateLogFactor must be overrided in custom setup class
+        /// </summary>
+        /// <returns></returns>
         protected override ILoggerFactory CreateLogFactory()
         {
             // serilog configuration

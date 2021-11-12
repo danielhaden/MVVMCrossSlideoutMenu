@@ -8,7 +8,6 @@ namespace MVVMCrossSlideoutMenu
     {
         protected override void RegisterSetup()
         {
-
             // register the setup class
             this.RegisterSetupType<Setup>();
         }

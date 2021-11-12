@@ -1,6 +1,5 @@
 ﻿using MvvmCross.Platforms.Wpf.Views;
 
-
 namespace MVVMCrossSlideoutMenu
 {
     /// <summary>

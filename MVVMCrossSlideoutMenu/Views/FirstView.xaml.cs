@@ -8,8 +8,8 @@ namespace MVVMCrossSlideoutMenu.WPF.Views
     /// <summary>
     /// Interaction logic for FirstView.xaml
     /// </summary>
-    [MvxContentPresentation] // Present the content of this view
-    [MvxViewFor(typeof(FirstViewModel))] // Set the view model for this view
+    [MvxContentPresentation] // Sets this view as a *content*
+    [MvxViewFor(typeof(FirstViewModel))] // Sets FirstViewModel as the View Model for this View
     public partial class FirstView : MvxWpfView
     {
         public FirstView()
