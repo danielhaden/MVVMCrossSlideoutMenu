@@ -1,6 +1,6 @@
 ﻿using MvvmCross.Platforms.Wpf.Views;
 
-namespace MultiRegionView.Core
+namespace BasicMvxApp.WPF
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

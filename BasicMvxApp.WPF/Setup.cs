@@ -4,7 +4,7 @@ using Serilog;
 using Serilog.Extensions.Logging;
 
 
-namespace MultiRegionView.Core
+namespace BasicMvxApp.WPF
 {
     /// <summary>
     /// Custom setup class (required since MVVMCross 8.0 because MvxWpfSetup is now

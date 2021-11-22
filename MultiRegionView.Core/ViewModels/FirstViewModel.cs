@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MVVMCrossSlideoutMenu.Core.ViewModels
+namespace MultiRegionView.Core.ViewModels
 {
     /// <summary>
     /// A view model for FirstView.xaml

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{A95DFD86-1275-42DB-9955-6FE6CD205E7A}</ProjectGuid>
+    <ProjectGuid>{82A9882C-961C-4088-9E54-A159156EE903}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>MVVMCrossSlideoutMenu</RootNamespace>
-    <AssemblyName>MVVMCrossSlideoutMenu</AssemblyName>
+    <RootNamespace>BasicMvxApp.WPF</RootNamespace>
+    <AssemblyName>BasicMvxApp.WPF</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -146,8 +146,8 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\MVVMCrossSlideoutMenu.Core\BasicMvxApp.Core.csproj">
-      <Project>{9296fbc5-3eea-42a8-b55d-f876e7c5b20e}</Project>
+    <ProjectReference Include="..\BasicMvxApp.Core\BasicMvxApp.Core.csproj">
+      <Project>{cab61204-00e8-425a-9d67-7fdb4976fed6}</Project>
       <Name>BasicMvxApp.Core</Name>
     </ProjectReference>
   </ItemGroup>

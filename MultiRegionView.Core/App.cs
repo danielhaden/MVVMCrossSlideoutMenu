@@ -1,8 +1,8 @@
-﻿using MvvmCross.IoC;
+﻿using MultiRegionView.Core.ViewModels;
+using MvvmCross.IoC;
 using MvvmCross.ViewModels;
-using MVVMCrossSlideoutMenu.Core.ViewModels;
 
-namespace MVVMCrossSlideoutMenu.Core
+namespace MultiRegionView.Core
 {
     public class App : MvxApplication
     {

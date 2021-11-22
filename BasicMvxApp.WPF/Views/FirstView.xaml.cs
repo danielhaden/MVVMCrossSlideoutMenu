@@ -1,9 +1,9 @@
-﻿using MultiRegionView.Core.Core.ViewModels;
+﻿using BasicMvxApp.Core.ViewModels;
 using MvvmCross.Platforms.Wpf.Presenters.Attributes;
 using MvvmCross.Platforms.Wpf.Views;
 using MvvmCross.ViewModels;
 
-namespace MultiRegionView.Core.Views
+namespace BasicMvxApp.WPF.Views
 {
     /// <summary>
     /// Interaction logic for FirstView.xaml

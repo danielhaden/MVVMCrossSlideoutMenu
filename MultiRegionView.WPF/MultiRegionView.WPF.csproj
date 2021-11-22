@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AB22B7B8-C026-4CEA-B3FA-376D1424635C}</ProjectGuid>
+    <ProjectGuid>{3D7EE15D-06C4-4193-885B-8572CBE00F76}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>MultiRegionView.WPF</RootNamespace>
     <AssemblyName>MultiRegionView.WPF</AssemblyName>
@@ -146,9 +146,9 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <ProjectReference Include="..\MVVMCrossSlideoutMenu.Core\BasicMvxApp.Core.csproj">
-      <Project>{9296fbc5-3eea-42a8-b55d-f876e7c5b20e}</Project>
-      <Name>MVVMCrossSlideoutMenu.Core</Name>
+    <ProjectReference Include="..\MultiRegionView.Core\MultiRegionView.Core.csproj">
+      <Project>{1a27288e-85ed-4784-b8db-3975f2add8c9}</Project>
+      <Name>MultiRegionView.Core</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

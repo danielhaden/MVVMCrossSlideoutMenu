@@ -2,7 +2,7 @@
 using MvvmCross.Platforms.Wpf.Core;
 using MvvmCross.Platforms.Wpf.Views;
 
-namespace MultiRegionView.Core
+namespace BasicMvxApp.WPF
 {
     public partial class App : MvxApplication
     {

@@ -1,4 +1,4 @@
-﻿using MultiRegionView.WPF.Core.ViewModels;
+﻿using MultiRegionView.Core.ViewModels;
 using MvvmCross.Platforms.Wpf.Presenters.Attributes;
 using MvvmCross.Platforms.Wpf.Views;
 using MvvmCross.ViewModels;
