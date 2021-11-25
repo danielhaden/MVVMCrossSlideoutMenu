@@ -1,18 +1,17 @@
 ﻿using MultiRegionView.Core.ViewModels;
+using MvvmCross.Core.ViewModels;
 using MvvmCross.Platforms.Wpf.Presenters.Attributes;
-using MvvmCross.Platforms.Wpf.Views;
-using MvvmCross.ViewModels;
 
 namespace MultiRegionView.WPF.Views
 {
     /// <summary>
-    /// Interaction logic for FirstView.xaml
+    /// Interaction logic for MainView.xaml
     /// </summary>
     [MvxContentPresentation] // Sets this view as a *content*
-    [MvxViewFor(typeof(FirstViewModel))] // Sets FirstViewModel as the View Model for this View
-    public partial class FirstView : MvxWpfView
+    [MvxViewFor(typeof(MainViewModel))]
+    public partial class MainView
     {
-        public FirstView()
+        public MainView()
         {
             InitializeComponent();
         }

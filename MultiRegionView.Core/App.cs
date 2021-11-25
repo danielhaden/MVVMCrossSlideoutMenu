@@ -15,7 +15,7 @@ namespace MultiRegionView.Core
                 .RegisterAsLazySingleton(); // Register them as lazy singletons (i.e. they are instantiated when they are first accessed)
 
             // Navigate to this view model on app startup
-            RegisterAppStart<FirstViewModel>();
+            RegisterAppStart<MainViewModel>();
 
             // if you want to use a custom AppStart, you should replace the previous line with this one:
             // RegisterCustomAppStart<MyCustomAppStart>();
