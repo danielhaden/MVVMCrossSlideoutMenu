@@ -28,6 +28,13 @@ namespace MultiRegionView.WPF.Views
             contentControl = _contentControl;
         }
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="element"></param>
+        /// <param name="attribute"></param>
+        /// <param name="request"></param>
+        /// <returns></returns>
         protected Task<bool> ShowContentView(FrameworkElement element, MvxContentPresentationAttribute attribute, MvxViewModelRequest request)
         {
 
@@ -40,8 +47,8 @@ namespace MultiRegionView.WPF.Views
 
                 // 
                 var loader = Mvx.IoCProvider.Resolve<IMvxWpfViewLoader>();
-                
-                
+
+
                 var view = loader.CreateView(request);
 
                 var containerView = FindChild<Frame>(contentControl, viewType.GetRegionName());
@@ -51,6 +58,8 @@ namespace MultiRegionView.WPF.Views
                     containerView.Navigate(view);
                 }
             }
+
+            return Task.FromResult(true);
         }
 
 
@@ -62,16 +71,6 @@ namespace MultiRegionView.WPF.Views
             //
             return viewFinder.GetViewType(request.ViewModelType);
         }
-
-        ///// <summary>
-        ///// Changes the presenter when invoked
-        ///// </summary>
-        ///// <param name="hint">A hint about how the next view should be displayed</param>
-        //public override void ChangePresentation(MvxPresentationHint hint)
-        //{
-        //    // deal with popToRoot
-        //    base.ChangePresentation(hint);
-        //}
 
 
         internal static T FindChild<T>(DependencyObject reference, string childName) where T : DependencyObject
@@ -137,9 +136,6 @@ namespace MultiRegionView.WPF.Views
 
             return foundChild;
         }
-
-
-
 
     }
 }

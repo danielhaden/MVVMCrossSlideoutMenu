@@ -14,6 +14,10 @@ namespace MultiRegionView.WPF.Views
     public sealed class MvxRegionAttribute
         : Attribute
     {
+        /// <summary>
+        /// Default constructor
+        /// </summary>
+        /// <param name="regionName">The name to give to the region (which essentially containts a view)</param>
         public MvxRegionAttribute(string regionName)
         {
             this.Name = regionName;
